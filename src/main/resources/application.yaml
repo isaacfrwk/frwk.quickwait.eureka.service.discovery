@@ -1,5 +1,5 @@
 spring:
   application:
-    name: quickwait-eureka-server
+    name: quickwait-eureka-service
   config:
-    import: "configserver:http://springconfigserver:8071"
+    import: "configserver:http://springconfigservice:8071"
